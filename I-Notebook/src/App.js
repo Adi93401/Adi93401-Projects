@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 import { Home } from './components/Home';
 import About from './components/About';
 import NoteState from './context/notes/NoteState';
-import { alert } from './components/Alert';
+import alert from './components/Alert';
 import Signup from './components/Signup';
 import Login from './components/Login';
 import { useState } from 'react'
