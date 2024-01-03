@@ -20,9 +20,10 @@ const Signup = () => {
             // Save the auth token and redirect
             localStorage.setItem('token', json.authtoken); 
             history.push("/");
+            props.showAlert("Successfully signed up.")
         }
         else{
-            alert("Invalid credentials");
+            props.showAlert("Invalid credentials")
         }
     }
 
